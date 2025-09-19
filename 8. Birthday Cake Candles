@@ -12,10 +12,7 @@ function birthdayCakeCandles($candles) {
     $max = max($candles);
     $counts = array_count_values($candles);
     return $counts[$max];
-    
-    //foreach($counts as $candle => $count){
-        //return $count;
-    //}
+}
 }
 
 $fptr = fopen(getenv("OUTPUT_PATH"), "w");
