@@ -10,9 +10,7 @@
 function aVeryBigSum($ar) {
     // Write your code here
     $summed = array_sum($ar);
-    
     return $summed;
-
 }
 
 $fptr = fopen(getenv("OUTPUT_PATH"), "w");
