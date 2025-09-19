@@ -1,0 +1,20 @@
+<?php
+
+/*
+ * Complete the 'staircase' function below.
+ *
+ * The function accepts INTEGER n as parameter.
+ */
+
+function staircase($n) {
+    // Write your code here
+    for($i = 1; $i <= $n; $i++){
+        $spaces = ' ';
+        $hashtags = '#';
+        echo str_repeat($spaces, $n-$i). str_repeat($hashtags, $i) . "\n";
+    }
+}
+
+$n = intval(trim(fgets(STDIN)));
+
+staircase($n);
