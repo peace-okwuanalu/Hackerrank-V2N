@@ -1,1 +1,1 @@
-testing
+Here, i test out my knowledge on arrays
